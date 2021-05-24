@@ -4,6 +4,8 @@
 
 > Just a couple of calming blobs
 
+https://schascha.github.io/lava/
+
 ## Project setup
 ```
 npm install
