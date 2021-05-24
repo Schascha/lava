@@ -7,7 +7,13 @@
 		/>
 
 		<div :class="['settings', {'is-active': active}]">
-			<form v-if="active">
+			<button
+				type="button"
+				@click="active = !active"
+			>
+				<IconPlus />
+			</button>
+			<form>
 				<label>
 					<span>Color ({{ color }})</span>
 					<input
@@ -34,25 +40,20 @@
 					/>
 				</label>
 			</form>
-			<button
-				type="button"
-				@click="active = !active"
-			>
-				<IconSettings />
-			</button>
+
 		</div>
 	</div>
 </template>
 
 <script>
 import LavaItem from '@/components/LavaItem';
-import IconSettings from '@/assets/settings.svg?inline';
+import IconPlus from '@/assets/plus.svg?inline';
 
 export default {
 	name: 'App',
 	components: {
 		LavaItem,
-		IconSettings
+		IconPlus
 	},
 	data() {
 		return {
@@ -109,23 +110,44 @@ button {
 }
 
 .settings {
-	transition: none;
 	overflow: hidden;
 	position: absolute;
 	bottom: 1rem;
 	left: 1rem;
-	padding: 0.5rem 1rem;
-	width: calc(var(--icon-size) + 2rem);
+	width: calc(var(--icon-size) + 1rem);
 	max-width: 230px;
-	max-height: calc(var(--icon-size) + 1rem);
+	height: calc(var(--icon-size) + 1rem);
 	background-color: var(--color-content);
 	border-radius: 1rem;
 	text-align: left;
 
 	&.is-active {
-		transition: all 0.3s ease-out;
 		width: 100%;
+		height: auto;
 		max-height: 250px;
+
+		form {
+			opacity: 1;
+			transform: scale(1) translateZ(0);
+			padding: 0.5rem 1rem;
+		}
+
+		svg {
+			transform: rotate(45deg);
+		}
+	}
+
+	form {
+		transition: all 0.3s ease-out;
+		opacity: 0;
+		clear: both;
+		transform: scale(0) translateZ(0);
+		transform-origin: bottom left;
+	}
+
+	button {
+		float: right;
+		padding: 0.5rem;
 	}
 
 	input {
@@ -141,6 +163,7 @@ button {
 }
 
 svg {
+	transition: transform 0.3s ease-out;
 	width: var(--icon-size);
 	height: var(--icon-size);
 	fill: currentColor;
