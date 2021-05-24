@@ -2,6 +2,16 @@
   "name": "lava",
   "version": "0.1.0",
   "author": "Sascha Künstler <contact.schascha@gmail.com> (https://www.schaschaweb.de)",
+  "license": "MIT",
+  "funding": "https://www.paypal.me/LosZahlos",
+  "homepage": "https://schascha.github.io/lava/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Schascha/lava"
+  },
+  "bugs": {
+    "url": "https://github.com/Schascha/lava/issues"
+  },
   "scripts": {
     "build": "vue-cli-service build",
     "start": "vue-cli-service serve --open",
