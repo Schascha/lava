@@ -1,6 +1,6 @@
 <img src="src/assets/logo.svg/?raw=true" alt="Logo" width="150">
 
-# lava
+# Lava
 
 ![Build](https://github.com/Schascha/lava/workflows/Build/badge.svg)
 
@@ -26,6 +26,12 @@ npm run build
 ### Lints and fixes files
 ```
 npm test
+```
+
+### Generate PWA icons
+
+```
+npm run icons
 ```
 
 ## Bugs?
