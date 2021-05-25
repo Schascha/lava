@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lava/css/app.39ef08cb.css"
   },
   {
-    "revision": "5780963795bc950a853325bd907c47d4",
+    "revision": "28664272d4d01f99a700ee4ceb268979",
     "url": "/lava/index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lava/js/chunk-vendors.e329ed66.js"
   },
   {
-    "revision": "f93cf348215b1801cce6b3d09fdf6ac7",
+    "revision": "f32e1e18b200870c553709c98f314fdf",
     "url": "/lava/manifest.json"
   },
   {
