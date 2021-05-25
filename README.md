@@ -1,3 +1,5 @@
+<img src="src/assets/logo.svg/?raw=true" alt="Logo" width="150">
+
 # lava
 
 ![Build](https://github.com/Schascha/lava/workflows/Build/badge.svg)
