@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lava/precache-manifest.51eca74757350ec795c95d13bca558c0.js"
+  "/lava/precache-manifest.24e845f7cb7834118390acd3721775e7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "lava"});
