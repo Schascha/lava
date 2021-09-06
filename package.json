@@ -26,7 +26,7 @@
   "devDependencies": {
     "@schascha/eslint-config": "0.0.3",
     "@schascha/sassy-mixins": "0.0.4",
-    "@schascha/stylelint-config": "0.0.5",
+    "@schascha/stylelint-config": "0.0.6",
     "@vue/cli-plugin-babel": "^4.5.13",
     "@vue/cli-plugin-eslint": "^4.5.13",
     "@vue/cli-plugin-pwa": "^4.5.13",
