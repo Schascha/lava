@@ -39,6 +39,6 @@
     "sass-loader": "^8.0.2",
     "stylelint": "^13.13.1",
     "vue-cli-plugin-svg": "git+https://github.com/FedorSherbakov/vue-svg.git",
-    "vue-pwa-asset-generator": "^1.6.0"
+    "vue-pwa-asset-generator": "^1.7.1"
   }
 }
